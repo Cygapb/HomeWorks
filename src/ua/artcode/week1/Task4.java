@@ -12,13 +12,13 @@ public class Task4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Add value: ");
-        double var = sc.nextDouble();
-        double v1 = 0;
-        double v2 = 1;
-        if ((double)var < v2) {
-            System.out.println("0");}
-        else if ((double)var > v2) {
-                System.out.println("1");
+        double var =  sc.nextDouble();
+        int v1 = 0;
+        int v2 = 1;
+        if (var >= v1) {
+            System.out.println("Range > 0");}
+        else if (var >= v2) {
+            System.out.println("Range > 1");
             }
     }
 }
